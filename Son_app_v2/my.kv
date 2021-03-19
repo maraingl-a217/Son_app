@@ -1,0 +1,103 @@
+<Item@Label>:
+    font_size: '25sp'
+
+<Container>:
+    rows: 3
+
+    text_input: text_input
+    text_input_let: text_input_let
+    min: min
+    ch: ch
+    day: day
+    year: year
+
+
+
+
+    AnchorLayout:
+        size_hint: 1, 0.15
+
+
+
+
+        TextInput:
+            text: 'sleep'
+            id: text_input
+            font_size: '45sp'
+            multiline: False
+            input_type: 'number'
+            input_filter: 'int'
+
+
+
+
+
+    AnchorLayout:
+        size_hint: 1, 0.15
+
+
+        TextInput:
+            text: 'year'
+            id: text_input_let
+            font_size: '45sp'
+            multiline: False
+            input_type: 'number'
+            input_filter: 'int'
+
+
+
+    GridLayout:
+        cols: 2
+
+        BoxLayout:
+            orientation: 'vertical'
+            Item:
+
+                text: 'Минут:'
+
+            Item:
+
+                text: 'Часов:'
+
+            Item:
+
+                text: 'Дней:'
+
+            Item:
+
+                text: 'Лет:'
+
+
+        BoxLayout:
+            orientation: 'vertical'
+            Item:
+                id: min
+                text: '0'
+
+            Item:
+                id: ch
+                text: '0'
+
+            Item:
+                id: day
+                text: '0'
+
+            Item:
+                id: year
+                text: '0'
+
+
+
+    BoxLayout:
+        size_hint: 0.9, 0.15
+        padding: [30,630, 30, 20]
+
+        Button:
+
+            text: 'Go'
+            font_size: 40
+
+            on_release:
+                root.calculate()
+
+

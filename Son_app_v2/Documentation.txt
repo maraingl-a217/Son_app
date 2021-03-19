@@ -1,0 +1,47 @@
+для приложения нужно установить kivy - https://pypi.org/project/Kivy/
+и python - https://www.python.org/      
+создавался на версии 3.9
+
+запускаемы файл main.py
+
+Эта программа которая считает какое количество минут,часов,дней,лет человек проспит.
+
+Для того чтобы программа это высчитала нужно в поле(предварительно удалив что там написано) "sleep"  написать сколько человек спит в сутки. 
+а в поле(предварительно удалив что там написано) "year" записать на какое количество лет расчитывать.
+и нажать на кнопку "Go"
+
+Пример: 
+Ввод пользователя:
+5       60
+
+Вывод программы:
+Минут: 6570000.0
+Часов: 109500.0
+Дней: 4562.5
+Лет: 12.5
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+for the application you need to install kivy - https://pypi.org/project/Kivy/
+and python - https://www.python.org/        
+was built on version 3.9
+
+run the main.py file
+
+This is a program that counts how many minutes, hours, days, years a person will sleep.
+
+In order for the program to calculate this, you need to write "sleep" in the field (after deleting what is written there), how many people sleep per day.
+and in the field (after deleting what is written there) write "year" for how many years to calculate.
+and click on the "Go" button
+
+Example:
+User input:
+5 60
+
+Output of the program:
+Минут: 6570000.0
+Часов: 109500.0
+Дней: 4562.5
+Лет: 12.5
